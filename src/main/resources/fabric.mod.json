@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zombiemod",
+  "version": "1.1.0",
+  "name": "Zombie Mod",
+  "description": "Hər gün zombilərin sayı və gücü artır.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.zombiemod.ZombieMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
